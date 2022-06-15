@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -6,8 +8,11 @@ module.exports = {
       colors: {
         primary: '#062520',
         secondary: '#D0FFA1',
-        tertiary: ''
-      }
+        tertiary: '#555555'
+      },
+      fontFamily: {
+        'sans': ['Inter', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   variants: {
