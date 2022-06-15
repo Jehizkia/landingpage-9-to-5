@@ -1,11 +1,11 @@
 <template functional>
   <div>
     <div v-if="props.name === 'search'">
-      <svg :class="[props.width, props.height]" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11 17.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13ZM20.4 20.5l-4.9-4.8" stroke="#fff"/></svg>
+      <svg :class="[props.width, props.height]" fill="none" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11 17.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13ZM20.4 20.5l-4.9-4.8" stroke="#fff"/></svg>
     </div>
 
     <div v-if="props.name === 'menu'">
-      <svg :class="[props.width, props.height]" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h18M3 6h18M3 18h18" stroke="#fff" stroke-miterlimit="10"/></svg>
+      <svg :class="[props.width, props.height]" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h18M3 6h18M3 18h18" stroke="#fff" stroke-miterlimit="10"/></svg>
     </div>
 
 

@@ -7,26 +7,25 @@
         </div>
 
         <div class="flex">
-          <div class="px-10 flex items-center justify-center border-l border-r border-white border-opacity-10">
-            <icon name="search" />
-          </div>
+          <search />
 
-          <div class="px-10 flex items-center justify-center">
+
+          <div class="px-10 flex items-center justify-center border-l border-white border-opacity-10 border-l">
             <icon name="menu" />
           </div>
         </div>
       </nav>
 
-      <div class="relative " style="height: 42rem">
+      <div class="relative ">
         <div class="absolute inset-0">
           <div class=" w-full bg-contain bg-no-repeat bg-right h-full" style="background-image: url('/images/ons_polderhart_1.png')"></div>
         </div>
 
-        <div class="container lg:px-48 mx-auto pt-40 relative z-10">
-          <h1 class="text-white text-6xl w-3/4">
+        <div class="container px-8 lg:px-48 mx-auto py-40 relative z-10">
+          <h1 class="text-white text-4xl lg:text-6xl lg:w-10/12">
             Zelf meedenken en meebeslissen over de toekomst van het gebied waarin wij werken en wonen.
           </h1>
-          <p class="text-white text-lg font-light opacity-50 mt-4 w-1/2">
+          <p class="text-white text-lg font-light opacity-50 mt-4 lg:w-2/3">
             Ons Polderhart is een coöperatie van huishoudens in het gebied rondom Wildveldseweg, Gerverscop en Rodendijk.
           </p>
 
@@ -42,7 +41,7 @@
       </div>
     </div>
 
-    <div class="container lg:px-48 mx-auto mt-16">
+    <div class="container px-8 lg:px-48 mx-auto my-16">
       <tabs
         :tabs="['verhalen', 'nieuws']"
       >

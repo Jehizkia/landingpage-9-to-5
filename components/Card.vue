@@ -2,12 +2,13 @@
   <div>
     <div class="bg-gray-100 rounded-lg h-80 bg-cover" :style="{'background-image': `url('${image}')`}" />
 
-    <div class="grid grid-cols-2 mt-8">
-      <div class="text-primary text-3xl pr-12">
+    <div class="grid md:grid-cols-2 mt-8">
+      <div class="text-primary text-3xl pr-12 mb-6 md:mb-0">
         <p style="color: #052520;">
           {{ title}}
         </p>
       </div>
+
       <div>
         <p class="font-light leading-relaxed text-tertiary">{{ description }}</p>
 
