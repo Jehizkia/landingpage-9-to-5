@@ -6,7 +6,7 @@
 
       <div class="relative ">
         <div class="absolute inset-0">
-          <div class=" w-full bg-cover bg-right lg:bg-center lg:bg-contain bg-no-repeat h-full" style="background-image: url('/images/ons_polderhart_1.png')"></div>
+          <div class=" w-full bg-cover bg-right lg:bg-contain bg-no-repeat h-full" style="background-image: url('/images/ons_polderhart_1.png')"></div>
         </div>
 
         <div class="container px-8 lg:px-48 mx-auto py-40 relative z-10">
