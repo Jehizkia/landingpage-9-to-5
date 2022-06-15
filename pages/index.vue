@@ -1,24 +1,12 @@
 <template>
   <div>
     <div class="bg-primary">
-      <nav class="flex justify-between border-b border-white border-opacity-10">
-        <div class="p-8 text-white text-xl">
-          <p><span class="mr-1 opacity-40">ons</span><span>polderhart</span></p>
-        </div>
 
-        <div class="flex">
-          <search />
-
-
-          <div class="px-10 flex items-center justify-center border-l border-white border-opacity-10 border-l">
-            <icon name="menu" />
-          </div>
-        </div>
-      </nav>
+      <navigation />
 
       <div class="relative ">
         <div class="absolute inset-0">
-          <div class=" w-full bg-contain bg-no-repeat bg-right h-full" style="background-image: url('/images/ons_polderhart_1.png')"></div>
+          <div class=" w-full bg-cover bg-right lg:bg-center lg:bg-contain bg-no-repeat h-full" style="background-image: url('/images/ons_polderhart_1.png')"></div>
         </div>
 
         <div class="container px-8 lg:px-48 mx-auto py-40 relative z-10">
